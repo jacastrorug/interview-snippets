@@ -1,0 +1,8 @@
+{
+  "name": "interview-snippets",
+  "version": "1.0.0",
+  "description": "This is a project focused in collect snippets of js code to an interview",
+  "main": "index.js",
+  "author": "jacastrorug <juliancastroruge@gmail.com>",
+  "license": "MIT"
+}
