@@ -63,7 +63,35 @@ console.log(colorConfig.colors[1]);
   console.log(1);
   setTimeout(() => console.log(2), 1000);
   setTimeout(() => console.log(3), 0);
-  new Promise((resolve, reject) => resolve(5)).then(num => console.log(num));
+  new Promise((resolve, reject) => resolve(5)).then((num) => console.log(num));
   console.log(4);
 })();
 
+/*
+    6. What will be the output of the next function
+*/
+
+sayHi("Juan");
+function sayHi(nombre) {
+  console.log(`Hi ${nombre}!!`);
+}
+sayHi("Sebastian");
+
+/*
+
+    7. What will be the output of the next function
+
+*/
+
+sayHi2("Daniel");
+var sayHi2 = (name) => {
+  console.log(`Hi ${name}`);
+};
+
+/*
+    8. What will be the output of the next block
+ */
+
+a = 2;
+var a;
+console.log(a);
